@@ -1,0 +1,30 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "app_name",
+            "request": "launch",    
+            "flutterMode": "debug",
+            "type": "dart",
+            "args": [
+                "--dart-define=API_KEY=1234"
+            ]
+        },
+        {
+            "name": "app_name (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "app_name (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release", 
+            "args": [
+                "--dart-define=API_KEY=1234"
+            ]
+        }
+    ]
+}
